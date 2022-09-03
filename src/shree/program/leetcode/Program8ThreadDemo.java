@@ -1,4 +1,4 @@
-package shree.helloworld;
+package shree.program.leetcode;
 
 public class Program8ThreadDemo {
     public static void main(String[] args) {

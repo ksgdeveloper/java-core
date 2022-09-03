@@ -1,4 +1,4 @@
-package shree.helloworld;
+package shree.program.leetcode;
 
 import java.util.stream.IntStream;
 
