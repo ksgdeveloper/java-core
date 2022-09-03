@@ -1,4 +1,4 @@
-package shree.helloworld.string;
+package shree.program.leetcode.string;
 
 import java.util.Arrays;
 

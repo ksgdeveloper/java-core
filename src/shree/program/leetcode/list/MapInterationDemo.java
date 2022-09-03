@@ -1,4 +1,4 @@
-package shree.helloworld.list;
+package shree.program.leetcode.list;
 
 import java.util.HashMap;
 import java.util.Map;

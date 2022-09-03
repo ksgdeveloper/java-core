@@ -1,4 +1,4 @@
-package shree.helloworld;
+package shree.program.leetcode;
 
 public class Program3ReverseString {
     public static void main(String[] args) {
