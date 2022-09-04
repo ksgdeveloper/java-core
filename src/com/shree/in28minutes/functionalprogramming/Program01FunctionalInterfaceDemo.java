@@ -11,14 +11,18 @@ public class Program01FunctionalInterfaceDemo {
     public static void main(String[] args) {
         List<Integer> numbers = List.of(12,9,13,4,6,2,4);
 
-        Predicate<Integer> IsintegerPredicate = x -> x % 2 == 0;
-        Function<Integer, Integer> integerIntegerFunction = x-> x*x;
+        Predicate<Integer> isIntegerPredicate = x -> x % 2 == 0;
+        Function<Integer, Integer> integerSquareFunction = x-> x*x;
         Consumer<Integer> println = System.out::println;
 
+        print(numbers, isIntegerPredicate, integerSquareFunction, println);
+
+    }
+
+    private static void print(List<Integer> numbers, Predicate<Integer> isIntegerPredicate, Function<Integer, Integer> integerIntegerFunction, Consumer<Integer> println) {
         numbers.stream()
-                .filter(IsintegerPredicate)
+                .filter(isIntegerPredicate)
                 .map(integerIntegerFunction)
                 .forEach(println);
-
     }
 }
